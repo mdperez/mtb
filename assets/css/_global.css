@@ -1,0 +1,50 @@
+@import url("_typography.css");
+
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #09ab8d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1vw;
+  color: #FFF;
+  border-bottom: 4px solid #FFF;
+}
+
+header .title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+}
+
+header .title span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+header nav a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #09ab8d;
+  color: #FFF;
+  border-top: 4px solid #FFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 1vw;
+  font-size: 14px;
+}

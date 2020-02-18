@@ -1,0 +1,84 @@
+@import url("_reset.css");
+@import url("_global.css");
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 50px repeat(3, auto) 30px;
+}
+
+#popular {
+  position: relative;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/japan.jpg");
+  color: #FFF;
+}
+
+#popular .wrapper {
+  width: 30vw;
+  height: 100%;
+  padding: 0 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 2;
+}
+
+#popular .wrapper .button {
+  display: inline-block;
+  text-align: center;
+  background-color: #0bab8c;
+  border: none;
+  width: 200px;
+  padding: 10px 0;
+  margin-bottom: 50px;
+}
+
+#popular .wrapper .button:hover {
+  cursor: pointer;
+  background-color: #156152;
+}
+
+#popular .overlay {
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+#popular:hover .overlay {
+  opacity: 0;
+}
+
+#popular .bullets {
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+  z-index: 3;
+}
+
+#popular .bullets .bullet {
+  cursor: pointer;
+  width: 8px;
+  height: 8px;
+  margin: 10px 0;
+  display: block;
+  background-color: #FFF;
+  border-radius: 6px;
+}
+
+#popular .bullets .bullet.active {
+  background-color: transparent;
+  border: 1px solid #FFF;
+  height: 7px;
+  width: 7px;
+}
