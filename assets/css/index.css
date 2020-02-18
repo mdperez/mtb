@@ -1,5 +1,5 @@
-@import url("_reset.css");
-@import url("_global.css");
+@import url("reset.css");
+@import url("global.css");
 
 .container {
   width: 100%;
