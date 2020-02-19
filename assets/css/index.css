@@ -1,5 +1,5 @@
 @import url("reset.css");
-@import url("global.css");
+@import url("globals.css");
 
 .container {
   width: 100%;
@@ -10,6 +10,7 @@
 #popular {
   position: relative;
   height: 50vh;
+  margin-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -81,4 +82,96 @@
   border: 1px solid #FFF;
   height: 7px;
   width: 7px;
+}
+
+#last {
+  width: 80vw;
+  margin: 0 auto 50px;
+}
+
+#last .wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(200px, max-content);
+  grid-gap: 20px;
+}
+
+#last .wrapper .post {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #FFF;
+  cursor: pointer;
+}
+
+#last .wrapper .post .text {
+  position: relative;
+  z-index: 2;
+  transition: opacity 0.3s;
+}
+
+#last .wrapper .post:hover .text {
+  opacity: 0;
+}
+
+#last .wrapper .post .overlay {
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+#last .wrapper .post:hover .overlay {
+  opacity: 0;
+}
+
+#last .wrapper .post#post1 {
+  background-image: url("../images/egypt.jpg");
+}
+
+#last .wrapper .post#post2 {
+  background-image: url("../images/china.jpg");
+}
+
+#last .wrapper .post#post3 {
+  grid-column: 3/5;
+  background-image: url("../images/usa.jpg");
+}
+
+#last .wrapper .post#post4 {
+  background-image: url("../images/london.jpg");
+}
+
+#last .wrapper .post#post5 {
+  background-image: url("../images/mexico.jpg");
+}
+
+#last .wrapper .post#post6 {
+  background-image: url("../images/greece.jpg");
+}
+
+#last .wrapper .post#post7 {
+  background-image: url("../images/canada.jpg");
+}
+
+#last .wrapper .post#post8 {
+  background-image: url("../images/morocco.jpg");
+}
+
+#last .wrapper .post#post9 {
+  grid-column: 2/4;
+  background-image: url("../images/france.jpg");
+}
+
+#last .wrapper .post#post10 {
+  background-image: url("../images/thailand.jpg");
 }
