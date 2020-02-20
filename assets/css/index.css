@@ -29,21 +29,6 @@
   z-index: 2;
 }
 
-#popular .wrapper .button {
-  display: inline-block;
-  text-align: center;
-  background-color: #0bab8c;
-  border: none;
-  width: 200px;
-  padding: 10px 0;
-  margin-bottom: 50px;
-}
-
-#popular .wrapper .button:hover {
-  cursor: pointer;
-  background-color: #156152;
-}
-
 #popular .overlay {
   position: absolute;
   background-color: #000;

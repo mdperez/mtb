@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?opru90');
+  src:  url('../fonts/icomoon.eot?opru90#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?opru90') format('truetype'),
+    url('../fonts/icomoon.woff?opru90') format('woff'),
+    url('../fonts/icomoon.svg?opru90#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e903";
+}
+.icon-facebook-square:before {
+  content: "\e900";
+}
+.icon-youtube:before {
+  content: "\e901";
+}
+.icon-pinterest:before {
+  content: "\e902";
+}
+
 h1 {
   font-size: 50px;
   line-height: 1.3;

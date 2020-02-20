@@ -37,14 +37,98 @@ header nav a:hover {
   text-decoration: underline;
 }
 
+#contact {
+  background-color: #09ab8d;
+  color: #FFF;
+}
+
+#contact .wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#contact .wrapper label {
+  color: #FFF;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 5px;
+}
+
+#contact .wrapper input,
+#contact .wrapper textarea {
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  padding: 0 5px;
+  line-height: 1.5;
+  outline: none;
+}
+
+#contact .wrapper .button {
+  float: right;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+#contact .wrapper .left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 40px 20px;
+}
+
+#contact .wrapper .right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 40px 20px;
+}
+
 footer {
   background-color: #09ab8d;
   color: #FFF;
-  border-top: 4px solid #FFF;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 0 1vw;
   font-size: 14px;
+}
+
+footer .networks span {
+  font-size: 20px;
+  padding: 0 6px;
+  cursor: pointer;
+}
+
+footer .networks span:hover {
+  color: #eee;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  background-color: #0bab8c;
+  color: #FFF;
+  border: none;
+  width: 200px;
+  padding: 10px 0;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #156152;
+}
+
+.button.inverted {
+  color: #0bab8c;
+  background-color: #FFF;
+}
+
+.button.inverted:hover {
+  background-color: #eee;
 }

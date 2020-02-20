@@ -15,7 +15,7 @@
           <a href="#">HOME</a>
           <a href="#">TRIPS</a>
           <a href="#">PENDING</a>
-          <a href="#">CONTACT</a>
+          <a href="#contact">CONTACT</a>
         </nav>
       </header>
       <section id="popular">
@@ -78,8 +78,33 @@
           </div>
         </div>
       </section>
-      <section id="contact">contact</section>
-      <footer>© 2020 mdperez</footer>
+      <section id="contact">
+        <form class="wrapper">
+          <div class="left">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=coru%C3%B1a&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <h2>CONTACT US</h2>
+            <label>Name</label>
+            <input type="text" name="name" required="required" />
+            <label>Email</label>
+            <input type="text" name="email" required="required" />
+            <label>Message</label>
+            <textarea name="message" class="form-control" placeholder="Write your message here..." rows="4" required="required"></textarea>
+            <div class="button inverted">Send</div>
+          </div>
+        </form>
+      </section>
+      <footer>
+        <div class="copy">© 2020 mdperez</div>
+        <div class="networks">
+          <span class="icon-instagram"></span><span class="icon-pinterest"></span><span class="icon-facebook-square"></span><span class="icon-youtube"></span>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
