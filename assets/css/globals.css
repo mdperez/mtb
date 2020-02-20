@@ -20,6 +20,8 @@ header {
 header .title {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 22px;
+  color: #FFF;
+  text-decoration: none;
 }
 
 header .title span {
@@ -118,6 +120,7 @@ footer .networks span:hover {
   padding: 10px 0;
   margin-bottom: 50px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .button:hover {

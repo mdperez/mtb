@@ -8,9 +8,9 @@
   <body>
     <div class="container">
       <header>
-        <div class="title">
+        <a href="#" class="title">
           MTB <span>My Travel Blog</span>
-        </div>
+        </a>
         <nav>
           <a href="#">HOME</a>
           <a href="#">TRIPS</a>
@@ -22,7 +22,7 @@
         <div class="wrapper">
           <h1>The land of the <br>rising sun</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel efficitur est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla accumsan ultrices sapien, pellentesque ornare massa hendrerit vel.</p>
-          <div class="button">Read more ></div>
+          <a href="./post.html" class="button">Read more ></a>
         </div>
         <div class="bullets">
           <span class="bullet active"></span>
@@ -81,13 +81,6 @@
       <section id="contact">
         <form class="wrapper">
           <div class="left">
-            <div class="mapouter">
-              <div class="gmap_canvas">
-                <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=coru%C3%B1a&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-              </div>
-            </div>
-          </div>
-          <div class="right">
             <h2>CONTACT US</h2>
             <label>Name</label>
             <input type="text" name="name" required="required" />
@@ -96,6 +89,13 @@
             <label>Message</label>
             <textarea name="message" class="form-control" placeholder="Write your message here..." rows="4" required="required"></textarea>
             <div class="button inverted">Send</div>
+          </div>
+          <div class="right">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=coru%C3%B1a&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              </div>
+            </div>
           </div>
         </form>
       </section>

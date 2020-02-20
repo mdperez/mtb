@@ -1,0 +1,8 @@
+@import url("reset.css");
+@import url("globals.css");
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 50px repeat(3, auto) 30px;
+}
