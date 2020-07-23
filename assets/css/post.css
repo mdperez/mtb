@@ -6,3 +6,66 @@
   display: grid;
   grid-template-rows: 50px repeat(3, auto) 30px;
 }
+
+
+#postHead {
+  position: relative;
+  height: 70vh;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../images/japan.jpg");
+  color: #FFF;
+  padding: 0 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#postHead .author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#postHead .author .profile {
+  width: 60px;
+  height: 60px;
+  margin-right: 24px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  display: inline-block;
+}
+
+#postHead .author .text .name {
+  font-weight: bold;
+}
+
+#postHead .author .text .title {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+#postHead .author .text .twitter {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+}
+
+#postHead .overlay {
+  position: absolute;
+  background-color: #000;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+#postHead:hover .overlay {
+  opacity: 0;
+}
