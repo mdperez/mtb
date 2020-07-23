@@ -19,39 +19,72 @@
   color: #FFF;
   padding: 0 2vw;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#postHead .title {
+  display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-#postHead .author {
+#postHead aside {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-bottom: 30px;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: rgba(255,255,255,0.2);
+  padding: 0 20px;
 }
 
-#postHead .author .profile {
+#postHead aside .author {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+#postHead aside .author .profile {
   width: 60px;
   height: 60px;
-  margin-right: 24px;
+  margin-right: 12px;
   border-radius: 50%;
   border: 3px solid #fff;
   display: inline-block;
 }
 
-#postHead .author .text .name {
+#postHead aside .author .text .name {
   font-weight: bold;
 }
 
-#postHead .author .text .title {
+#postHead aside .author .text .title {
   font-size: 14px;
   font-style: italic;
   margin-bottom: 4px;
 }
-#postHead .author .text .twitter {
+#postHead aside .author .text .twitter {
   font-size: 14px;
   color: #888;
   margin: 0;
+}
+
+#postHead aside .share {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#postHead aside .share h4 {
+  margin-bottom: 10px;
+}
+
+#postHead aside .share span {
+  cursor: pointer;
+  padding: 0 5px;
+  transition: color 0.3s;
+}
+
+#postHead aside .share span:hover {
+  color: #999;
 }
 
 #postHead .overlay {
