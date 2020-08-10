@@ -122,7 +122,7 @@
 
 #postBody .header h3 {
   margin: 0;
-  color: #09ab8d;
+  color: #056956;
 }
 
 #postBody .header #breadcrumb a {
@@ -149,7 +149,7 @@
 
 #postBody .body figure figcaption {
   text-align: right;
-  color: #999;
+  color: #666;
   text-transform: uppercase;
   font-size: 12px;
 }
