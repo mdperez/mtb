@@ -59,7 +59,7 @@
   font-weight: bold;
 }
 
-#postHead aside .author .text .title {
+#postHead aside .author .text .charge {
   font-size: 14px;
   font-style: italic;
   margin-bottom: 4px;
@@ -205,4 +205,30 @@
   top: 50%;
   left: 50%;
   transform:translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    grid-template-rows: 100px repeat(4, auto) 60px;
+  } 
+  
+  #postHead {
+    flex-direction: column;
+    padding: 0 3vw;
+  }
+
+  #postHead .title {
+    margin-top: 30px;
+  }
+
+  #postHead aside {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 -3vw;
+  }
+
+  #postHead aside .author {
+    margin: 0;
+  }
 }

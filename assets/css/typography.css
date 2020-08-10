@@ -52,16 +52,31 @@ blockquote::first-letter {
     font-size: 80px;
     margin: 0 0 40px;
   }
+
   h2 {
     font-size: 60px;
     margin: 0 0 40px;
   }
+
   h3 {
     font-size: 50px;
     margin: 0 0 40px;
   }
+
+  h4 {
+    font-size: 24px;
+  }
+
   p {
     font-size: 32px;
     margin: 0 0 40px;
+  }
+
+  blockquote {
+    margin-bottom: 50px;
+  }
+  
+  blockquote::first-letter {
+    font-size: 50px;
   }
 }
