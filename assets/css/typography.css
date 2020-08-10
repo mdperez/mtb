@@ -27,6 +27,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-comments-o:before {
+  content: "\e905";
+}
 .icon-instagram:before {
   content: "\e903";
 }
@@ -37,6 +40,9 @@
   content: "\e901";
 }
 .icon-pinterest:before {
+  content: "\e904";
+}
+.icon-recycle:before {
   content: "\e902";
 }
 

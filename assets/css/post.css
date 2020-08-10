@@ -4,13 +4,13 @@
 .container {
   width: 100%;
   display: grid;
-  grid-template-rows: 50px repeat(3, auto) 30px;
+  grid-template-rows: 50px repeat(4, auto) 30px;
 }
 
 
 #postHead {
   position: relative;
-  height: 70vh;
+  height: 30vh;
   margin-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,4 +101,106 @@
 
 #postHead:hover .overlay {
   opacity: 0;
+}
+
+#postBody {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 80%;
+}
+
+#postBody .header {
+  border-bottom: 1px solid #999;
+}
+
+#postBody .body {
+  border-bottom: 1px solid #999;
+  margin-bottom: 10px;
+}
+
+#postBody .header h3 {
+  margin: 0;
+  color: #09ab8d;
+}
+
+#postBody .header #breadcrumb a {
+  color: #000;
+  text-decoration: none;
+}
+
+#postBody .header #breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+#postBody .body figure {
+  margin: 50px 0;
+}
+
+#postBody .body figure.small {
+  width: 50%;
+  margin: 50px auto;
+}
+
+#postBody .body figure img {
+  width: 100%;
+}
+
+#postBody .body figure figcaption {
+  text-align: right;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#postFooter {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+#postFooter .share span {
+  cursor: pointer;
+  padding: 0 5px;
+  transition: color 0.3s;
+}
+
+#postFooter .share span:hover {
+  color: #999;
+}
+
+#readMore {
+  padding: 0 30px;
+}
+
+#readMore .wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 50px;
+}
+
+#readMore .wrapper .post {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+#readMore .wrapper .post img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#readMore .wrapper .post h3 {
+  color: #FFF;
+  text-shadow: 0px 0px 5px #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
 }
