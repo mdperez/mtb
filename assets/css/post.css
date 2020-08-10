@@ -6,7 +6,7 @@
 .container {
   width: 100%;
   display: grid;
-  grid-template-rows: 50px repeat(4, auto) 30px;
+  grid-template-rows: 50px repeat(3, auto) 30px;
 }
 
 #postHead {
@@ -209,7 +209,7 @@
 
 @media screen and (max-width: 1023px) {
   .container {
-    grid-template-rows: 100px repeat(4, auto) 60px;
+    grid-template-rows: 100px repeat(3, auto) 60px;
   }
   
   #postHead {

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>MTB My Travel Blog</title>
@@ -8,7 +8,7 @@
   <body>
     <div class="container">
       <header>
-        <a href="#" class="title" role="banner">
+        <a aria-label="My Travel Blog" href="#" class="title">
           MTB <span>My Travel Blog</span>
         </a>
         <nav role="navigation">
@@ -32,7 +32,7 @@
         </div>
         <div class="overlay"></div>
       </section>
-      <section id="last">
+      <section id="last" role=”complementary”>
         <h2> LAST POSTS</h2>
         <div class="wrapper">
           <div id="post1" class="post">
@@ -77,22 +77,22 @@
           </div>
         </div>
       </section>
-      <section id="contact" >
+      <section id="contact" role="form">
         <form class="wrapper">
           <div class="left">
             <h2>CONTACT US</h2>
             <label>Name</label>
-            <input type="text" name="name" required="required" />
+            <input aria-label="name" type="text" name="name" required="required" />
             <label>Email</label>
-            <input type="text" name="email" required="required" />
+            <input aria-label="email" type="text" name="email" required="required" />
             <label>Message</label>
-            <textarea name="message" class="form-control" placeholder="Write your message here..." rows="4" required="required"></textarea>
+            <textarea aria-label="message" name="message" class="form-control" placeholder="Write your message here..." rows="4" required="required"></textarea>
             <div class="button inverted">Send</div>
           </div>
           <div class="right">
             <div class="mapouter">
               <div class="gmap_canvas">
-                <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=coru%C3%B1a&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe title="gmaps" width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=coru%C3%B1a&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>MTB My Travel Blog</title>
@@ -8,7 +8,7 @@
   <body>
     <div class="container">
       <header>
-        <a href="./index.html" class="title" role="banner">
+        <a aria-label="My Travel Blog" href="./index.html" class="title">
           MTB <span>My Travel Blog</span>
         </a>
         <nav role="navigation">
@@ -17,69 +17,71 @@
           <a href="#contact">CONTACT</a>
         </nav>
       </header>
-      <div id="postHead">
-        <div class="title">
-          <h1>The land of the <br>rising sun</h1>
+      <section id="post" role="main">
+        <div id="postHead">
+          <div class="title">
+            <h1>The land of the <br>rising sun</h1>
+          </div>
+          <aside>
+            <div class="author">
+              <img class="profile" src="./assets/images/profile.png" />
+              <div class="text">
+                <h4 class="name">
+                  Miguel Domínguez
+                </h4>
+                <p class="charge">
+                  Frontend Developer
+                </p>
+                <p class="twitter">
+                  @mdperez_studio
+                </p>
+              </div>
+            </div>
+            <div class="share">
+              <h4>SHARE THIS POST</h4>
+              <span class="icon-instagram"></span><span class="icon-pinterest"></span><span class="icon-facebook-square"></span>
+            </div>
+          </aside>
         </div>
-        <aside>
-          <div class="author">
-            <img class="profile" src="./assets/images/profile.png" />
-            <div class="text">
-              <h4 class="name">
-                Miguel Domínguez
-              </h4>
-              <p class="charge">
-                Frontend Developer
-              </p>
-              <p class="twitter">
-                @mdperez_studio
-              </p>
+        <div id="postContent">
+          <div id="postBody">
+            <div class="header">
+              <h3>25 July 2020</h3>
+              <div id="breadcrumb">
+                <a href="#">TRIPS</a> / <a href="#">ASIA</a> / <a href="#">JAPAN</a>
+              </div>
+              <h1>JAPAN</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel efficitur est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla accumsan ultrices sapien, pellentesque ornare massa hendrerit vel.</p>
+            </div>
+            <div class="body">
+              <figure>
+                <img src="./assets/images/shibuya.jpg" />
+                <figcaption>Shibuya crossing</figcaption>
+              </figure>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan pulvinar lacus ut pulvinar. Curabitur cursus pretium placerat. Proin mattis sed neque ac imperdiet. Ut a erat aliquam ex euismod venenatis. Fusce iaculis ultrices consectetur. Sed vulputate erat et ipsum placerat volutpat. Nullam consequat augue hendrerit purus pharetra tincidunt. Curabitur interdum mollis arcu condimentum gravida. Nunc porttitor lobortis ornare. Nulla facilisi. Vivamus quis cursus nulla, eu eleifend eros. Fusce lacinia felis nec urna dapibus tempus. Nunc ornare urna ac nunc maximus, vel faucibus tortor hendrerit. Aenean sed quam sit amet quam tristique mattis. In sit amet nibh lacus.</p>
+              <p>Cras eget ultrices justo. In euismod lacus eget dolor condimentum sollicitudin eu at ipsum. Sed id leo sit amet neque placerat ullamcorper. Donec maximus volutpat vestibulum. Aenean euismod est ac condimentum commodo. Aenean venenatis metus sit amet velit vestibulum, nec aliquet enim faucibus. Suspendisse et placerat diam.</p>
+              <blockquote>Sed eget lorem elementum, ullamcorper lorem non, rutrum nisl. Morbi pharetra pulvinar libero. Praesent turpis elit, vulputate sit amet scelerisque at, lobortis non lacus. Sed sit amet augue a ante aliquam dignissim non et tortor. Donec eu accumsan augue. Aliquam erat volutpat. Nam nec nunc risus. Nunc tincidunt efficitur orci, vel fermentum orci pretium at. In vel lorem tellus. Donec pulvinar, est quis ullamcorper auctor, risus eros rhoncus est, molestie pellentesque turpis dolor viverra lacus. Donec in tortor eros. In sed pellentesque nisi. Etiam rutrum aliquam lorem quis ultrices. Pellentesque finibus a velit ac convallis. Duis vehicula, sem nec posuere pulvinar, tellus purus consectetur leo, non finibus ante turpis in augue. Quisque pellentesque, tellus eget pulvinar sagittis, nisi sapien ornare magna, in dictum arcu massa at est.</blockquote>
+              <p>Praesent pellentesque condimentum elit id fringilla. Pellentesque leo lectus, porttitor nec tincidunt non, vulputate non arcu. Maecenas vestibulum interdum lacus id interdum. Nullam quis tellus turpis. Duis ultrices interdum interdum. Donec non eros diam. Suspendisse elit enim, aliquet eu tincidunt nec, lacinia vel nunc. Morbi non efficitur dui. Ut ut feugiat ex, at fermentum tellus. Aenean id massa ut tellus aliquam vehicula at vel tellus. Suspendisse ac justo sapien. Phasellus accumsan in magna at molestie.</p>
+              <p>Duis eget leo lobortis velit pulvinar luctus id eu erat. Ut eget iaculis erat. Mauris mollis a justo ut mollis. Donec porta tincidunt purus, sed semper eros dignissim ac. Nulla maximus tristique felis, vel facilisis nibh mollis non. Nullam vehicula tincidunt odio, in vehicula ex ultricies non. Duis non lobortis mi. Nullam ac dolor at urna iaculis fermentum. Etiam pellentesque ex at mattis pharetra. In sit amet magna ex.</p>
+              <figure class="small">
+                <img src="./assets/images/fuji.jpg" />
+                <figcaption>Mount Fuji</figcaption>
+              </figure>
+              <p>Aliquam erat volutpat. Curabitur sagittis, leo a aliquam pretium, purus justo consectetur nibh, suscipit bibendum ex tortor eget eros. In laoreet posuere libero ornare mollis. Fusce et efficitur turpis, eu venenatis nulla. Duis vitae orci nec quam vehicula imperdiet. Donec nec imperdiet mi. Aenean eleifend metus diam. Integer imperdiet maximus sollicitudin. Sed sed ornare tortor. Ut lacus urna, vulputate nec faucibus non, posuere blandit dolor. Maecenas commodo turpis non sapien suscipit iaculis. Maecenas quis sapien nec velit mollis porta quis eget ligula. Donec elementum blandit augue quis pellentesque. Sed eu felis in libero pretium pulvinar. Morbi quis lectus molestie, sodales tellus eget, consectetur dui. Morbi rutrum congue turpis, ac pharetra quam fringilla vitae.</p>
+              <p>Vestibulum odio diam, volutpat in imperdiet dictum, vehicula a tellus. Phasellus felis elit, consequat non ex a, iaculis volutpat urna. Nulla sodales velit tristique erat pulvinar posuere. Nulla ornare tempus massa, vitae efficitur quam porta non. Etiam elementum vitae dolor vel laoreet. Nulla facilisi. Praesent id velit id turpis finibus maximus. Etiam justo dui, egestas ac semper ac, pellentesque eu dui. Sed lacinia venenatis pharetra. Nam ut pretium est. Integer molestie, tellus eu maximus molestie, lacus augue maximus felis, vel luctus lacus ligula ac est. Maecenas a dolor consectetur, faucibus sapien in, mattis augue. Etiam egestas a augue at eleifend.</p>
             </div>
           </div>
-          <div class="share">
-            <h4>SHARE THIS POST</h4>
-            <span class="icon-instagram"></span><span class="icon-pinterest"></span><span class="icon-facebook-square"></span>
-          </div>
-        </aside>
-      </div>
-      <section id="postContent">
-        <div id="postBody">
-          <div class="header">
-            <h3>25 July 2020</h3>
-            <div id="breadcrumb">
-              <a href="#">TRIPS</a> / <a href="#">ASIA</a> / <a href="#">JAPAN</a>
+          <div id="postFooter">
+            <div class="comments">
+              <span class="icon-comments-o"></span> 0 comments
             </div>
-            <h1>JAPAN</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel efficitur est. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla accumsan ultrices sapien, pellentesque ornare massa hendrerit vel.</p>
-          </div>
-          <div class="body">
-            <figure>
-              <img src="./assets/images/shibuya.jpg" />
-              <figcaption>Shibuya crossing</figcaption>
-            </figure>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan pulvinar lacus ut pulvinar. Curabitur cursus pretium placerat. Proin mattis sed neque ac imperdiet. Ut a erat aliquam ex euismod venenatis. Fusce iaculis ultrices consectetur. Sed vulputate erat et ipsum placerat volutpat. Nullam consequat augue hendrerit purus pharetra tincidunt. Curabitur interdum mollis arcu condimentum gravida. Nunc porttitor lobortis ornare. Nulla facilisi. Vivamus quis cursus nulla, eu eleifend eros. Fusce lacinia felis nec urna dapibus tempus. Nunc ornare urna ac nunc maximus, vel faucibus tortor hendrerit. Aenean sed quam sit amet quam tristique mattis. In sit amet nibh lacus.</p>
-            <p>Cras eget ultrices justo. In euismod lacus eget dolor condimentum sollicitudin eu at ipsum. Sed id leo sit amet neque placerat ullamcorper. Donec maximus volutpat vestibulum. Aenean euismod est ac condimentum commodo. Aenean venenatis metus sit amet velit vestibulum, nec aliquet enim faucibus. Suspendisse et placerat diam.</p>
-            <blockquote>Sed eget lorem elementum, ullamcorper lorem non, rutrum nisl. Morbi pharetra pulvinar libero. Praesent turpis elit, vulputate sit amet scelerisque at, lobortis non lacus. Sed sit amet augue a ante aliquam dignissim non et tortor. Donec eu accumsan augue. Aliquam erat volutpat. Nam nec nunc risus. Nunc tincidunt efficitur orci, vel fermentum orci pretium at. In vel lorem tellus. Donec pulvinar, est quis ullamcorper auctor, risus eros rhoncus est, molestie pellentesque turpis dolor viverra lacus. Donec in tortor eros. In sed pellentesque nisi. Etiam rutrum aliquam lorem quis ultrices. Pellentesque finibus a velit ac convallis. Duis vehicula, sem nec posuere pulvinar, tellus purus consectetur leo, non finibus ante turpis in augue. Quisque pellentesque, tellus eget pulvinar sagittis, nisi sapien ornare magna, in dictum arcu massa at est.</blockquote>
-            <p>Praesent pellentesque condimentum elit id fringilla. Pellentesque leo lectus, porttitor nec tincidunt non, vulputate non arcu. Maecenas vestibulum interdum lacus id interdum. Nullam quis tellus turpis. Duis ultrices interdum interdum. Donec non eros diam. Suspendisse elit enim, aliquet eu tincidunt nec, lacinia vel nunc. Morbi non efficitur dui. Ut ut feugiat ex, at fermentum tellus. Aenean id massa ut tellus aliquam vehicula at vel tellus. Suspendisse ac justo sapien. Phasellus accumsan in magna at molestie.</p>
-            <p>Duis eget leo lobortis velit pulvinar luctus id eu erat. Ut eget iaculis erat. Mauris mollis a justo ut mollis. Donec porta tincidunt purus, sed semper eros dignissim ac. Nulla maximus tristique felis, vel facilisis nibh mollis non. Nullam vehicula tincidunt odio, in vehicula ex ultricies non. Duis non lobortis mi. Nullam ac dolor at urna iaculis fermentum. Etiam pellentesque ex at mattis pharetra. In sit amet magna ex.</p>
-            <figure class="small">
-              <img src="./assets/images/fuji.jpg" />
-              <figcaption>Mount Fuji</figcaption>
-            </figure>
-            <p>Aliquam erat volutpat. Curabitur sagittis, leo a aliquam pretium, purus justo consectetur nibh, suscipit bibendum ex tortor eget eros. In laoreet posuere libero ornare mollis. Fusce et efficitur turpis, eu venenatis nulla. Duis vitae orci nec quam vehicula imperdiet. Donec nec imperdiet mi. Aenean eleifend metus diam. Integer imperdiet maximus sollicitudin. Sed sed ornare tortor. Ut lacus urna, vulputate nec faucibus non, posuere blandit dolor. Maecenas commodo turpis non sapien suscipit iaculis. Maecenas quis sapien nec velit mollis porta quis eget ligula. Donec elementum blandit augue quis pellentesque. Sed eu felis in libero pretium pulvinar. Morbi quis lectus molestie, sodales tellus eget, consectetur dui. Morbi rutrum congue turpis, ac pharetra quam fringilla vitae.</p>
-            <p>Vestibulum odio diam, volutpat in imperdiet dictum, vehicula a tellus. Phasellus felis elit, consequat non ex a, iaculis volutpat urna. Nulla sodales velit tristique erat pulvinar posuere. Nulla ornare tempus massa, vitae efficitur quam porta non. Etiam elementum vitae dolor vel laoreet. Nulla facilisi. Praesent id velit id turpis finibus maximus. Etiam justo dui, egestas ac semper ac, pellentesque eu dui. Sed lacinia venenatis pharetra. Nam ut pretium est. Integer molestie, tellus eu maximus molestie, lacus augue maximus felis, vel luctus lacus ligula ac est. Maecenas a dolor consectetur, faucibus sapien in, mattis augue. Etiam egestas a augue at eleifend.</p>
-          </div>
-        </div>
-        <div id="postFooter">
-          <div class="comments">
-            <span class="icon-comments-o"></span> 0 comments
-          </div>
-          <div class="share">
-            <span class="icon-instagram"></span><span class="icon-pinterest"></span><span class="icon-facebook-square"></span>
+            <div class="share">
+              <span class="icon-instagram"></span><span class="icon-pinterest"></span><span class="icon-facebook-square"></span>
+            </div>
           </div>
         </div>
       </section>
-      <section id="readMore">
+      <section id="readMore" role="complementary">
         <h3>KEEP READING</h3>
         <div class="wrapper">
           <div class="post">
@@ -100,22 +102,22 @@
           </div>  
         </div>
       </section>
-      <section id="contact">
+      <section id="contact" role="form">
         <form class="wrapper">
           <div class="left">
             <h2>CONTACT US</h2>
             <label>Name</label>
-            <input type="text" name="name" required="required" />
+            <input aria-label="name" type="text" name="name" required="required" />
             <label>Email</label>
-            <input type="text" name="email" required="required" />
+            <input aria-label="email" type="text" name="email" required="required" />
             <label>Message</label>
-            <textarea name="message" class="form-control" placeholder="Write your message here..." rows="4" required="required"></textarea>
+            <textarea aria-label="message" name="message" class="form-control" placeholder="Write your message here..." rows="4" required="required"></textarea>
             <div class="button inverted">Send</div>
           </div>
           <div class="right">
             <div class="mapouter">
               <div class="gmap_canvas">
-                <iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=coru%C3%B1a&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe title="gmaps"width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=coru%C3%B1a&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
               </div>
             </div>
           </div>
