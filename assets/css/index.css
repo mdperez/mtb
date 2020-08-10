@@ -12,6 +12,7 @@
 #popular {
   position: relative;
   height: 50vh;
+  min-height: 500px;
   margin-bottom: 50px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,6 +96,10 @@
   cursor: pointer;
 }
 
+#last .wrapper .post h3 {
+  margin: 0;
+}
+
 #last .wrapper .post .text {
   position: relative;
   z-index: 2;
@@ -162,3 +167,36 @@
 #last .wrapper .post#post10 {
   background-image: url("../images/thailand.jpg");
 }
+
+@media screen and (max-width: 1023px) {
+  .container {
+    grid-template-rows: 100px repeat(3, auto) 60px;
+  } 
+
+  #popular {
+    min-height: 800px;
+  }
+
+  #popular .wrapper {
+    width: 70vw;
+    padding: 0px 3vw;
+  }
+
+  #last {
+    width: 90vw;
+    margin: 0px auto 100px;
+  }
+
+  #last .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  } 
+
+  #last .wrapper .post#post9 {
+    grid-column: 2;
+  }
+
+  #last .wrapper .post#post3,
+  #last .wrapper .post#post10 {
+    grid-column: 1/3;
+  }
+} 

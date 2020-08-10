@@ -45,3 +45,23 @@ blockquote {
 blockquote::first-letter {
   font-size: 30px;
 }
+
+
+@media screen and (max-width: 1023px) {
+  h1 {
+    font-size: 80px;
+    margin: 0 0 40px;
+  }
+  h2 {
+    font-size: 60px;
+    margin: 0 0 40px;
+  }
+  h3 {
+    font-size: 50px;
+    margin: 0 0 40px;
+  }
+  p {
+    font-size: 32px;
+    margin: 0 0 40px;
+  }
+}
