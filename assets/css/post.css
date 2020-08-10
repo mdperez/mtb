@@ -9,7 +9,6 @@
   grid-template-rows: 50px repeat(4, auto) 30px;
 }
 
-
 #postHead {
   position: relative;
   height: 30vh;
@@ -64,6 +63,7 @@
   font-style: italic;
   margin-bottom: 4px;
 }
+
 #postHead aside .author .text .twitter {
   font-size: 14px;
   color: #888;
@@ -210,7 +210,7 @@
 @media screen and (max-width: 1023px) {
   .container {
     grid-template-rows: 100px repeat(4, auto) 60px;
-  } 
+  }
   
   #postHead {
     flex-direction: column;
