@@ -1,4 +1,6 @@
 @import url("reset.css");
+@import url("typography.css");
+@import url("icons.css");
 @import url("globals.css");
 
 .container {
