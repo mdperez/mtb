@@ -56,6 +56,11 @@
 
 #postHead aside .author .text .name {
   font-weight: bold;
+  font-size: 16px;
+  line-height: 1.1;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 #postHead aside .author .text .charge {
@@ -75,7 +80,11 @@
   margin-bottom: 10px;
 }
 
-#postHead aside .share h4 {
+#postHead aside .share p {
+  font-size: 16px;
+  line-height: 1.1;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
 
