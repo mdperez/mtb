@@ -30,6 +30,18 @@ p {
   margin: 0 0 20px;
 }
 
+p .bold {
+  font-weight: bold;
+}
+
+p .italic {
+  font-style: italic;
+}
+
+p .underline {
+  text-decoration: underline;
+}
+
 blockquote {
   margin-bottom: 30px;
 }
