@@ -224,6 +224,7 @@
   #postHead {
     flex-direction: column;
     padding: 0 3vw;
+    min-height: 400px;
   }
 
   #postHead .title {
